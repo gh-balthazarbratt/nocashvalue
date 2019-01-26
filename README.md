@@ -1,4 +1,4 @@
-##Background
+## Background
 In late Dec 2018 I saw a really cool blogpost by [@kimberMuffin](https://twitter.com/kimberMuffin/status/1075073687538171904) that explains how to 
 extract and crack NTLMv2 hashes from a pcap file using Wireshark. While I'm very 
 familiar with Wireshark and enjoy the GUI features I wondered if I could automate 
@@ -21,11 +21,11 @@ Issues/PRs welcome.
 **Note**: I only had a chance to test this script with the only pcap file I had access
  to which can be found on [Wireshark website](https://wiki.wireshark.org/SampleCaptures?action=AttachFile&do=get&target=smb-on-windows-10.pcapng). Please test with your own pcaps and report back any issues.
 
-##Dependencies
+## Dependencies
 * `tshark` 
 * `python3`
 
-##How to use the script
+## How to use the script
 
 Check the `python3` path in `#!` at the top of `main.py`. Should run fine in any *nix system. Did not test this on a Windows system.
  
@@ -49,6 +49,6 @@ $ ./main.py --tshark_path /usr/local/bin/tshark --pcap_file smb-on-windows-10.pc
 7 files created. See /tmp/nocashvalue_ntlmv2-75282e00 for details.
 ```
 
-##License
+## License
 
 MIT License
